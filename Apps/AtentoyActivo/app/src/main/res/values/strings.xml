@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App -->
+    <string name="app_name">AtentoyActivo</string>
+    <string name="app_icon">Icono de la app</string>
+
+    <!-- Login / Main -->
+    <string name="ingresar">Ingresar</string>
+    <string name="no_account_prompt">¿No tienes cuenta?</string>
+    <string name="registrar">Registrar</string>
+    <string name="correo">Correo</string>
+    <string name="contrasena">Contraseña</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_title">Dashboard</string>
+
+    <!-- Panel personalizado -->
+    <string name="show_custom_stats">Mostrar estadística personalizada</string>
+    <string name="hint_username">Usuario (ej: tata)</string>
+    <string name="hint_password">Contraseña del niño</string>
+    <string name="btn_show">Mostrar</string>
+    <string name="btn_clear">Limpiar</string>
+
+    <!-- Child card -->
+    <string name="child_stats_title">Estadística del jugador</string>
+    <string name="label_name_empty">Nombre: —</string>
+    <string name="label_age_empty">Edad: —</string>
+    <string name="label_clams">Almejas</string>
+
+    <!-- Placeholders (para evitar warnings de concatenación en setText) -->
+    <string name="label_name_placeholder">Nombre: %1$s</string>
+    <string name="label_age_placeholder">Edad: %1$d años</string>
+
+    <!-- General stats -->
+    <string name="general_stats_title">Estadísticas generales</string>
+    <string name="label_players_registered">Players registrados</string>
+    <string name="label_total_clams">Almejas totales</string>
+
+    <!-- Usuarios list -->
+    <string name="label_users">Usuarios</string>
+
+    <!-- Misc / placeholders -->
+    <string name="loading">Cargando…</string>
+    <string name="error_generic">Ocurrió un error</string>
+    <string name="ok">Aceptar</string>
+    <string name="cancel">Cancelar</string>
+
+    <string name="years_format">%d años</string>
+    <string name="placeholder_dash">—</string>
+    <string name="avatar_default">U</string>
+    <string name="label_correct">Correctas</string>
+    <string name="label_incorrect">Incorrectas</string>
+
+
+
+</resources>
+

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Version nocturna: usa variantes oscuras apropiadas -->
+    <color name="md_theme_primary">#0D47A1</color>
+    <color name="md_theme_onPrimary">#FFFFFF</color>
+    <color name="md_theme_primaryContainer">#0B3A82</color>
+
+    <!-- Alias usados por la UI -->
+    <color name="colorPrimary">@color/md_theme_primary</color>
+    <color name="colorPrimaryVariant">@color/md_theme_primaryContainer</color>
+    <color name="colorOnPrimary">@color/md_theme_onPrimary</color>
+
+    <color name="md_theme_surface">#121212</color>
+    <color name="md_theme_onSurface">#E0E0E0</color>
+
+    <color name="surface">@color/md_theme_surface</color>
+    <color name="onSurface">@color/md_theme_onSurface</color>
+</resources>

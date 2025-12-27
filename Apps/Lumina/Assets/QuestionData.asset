@@ -1,0 +1,387 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3708915739dfea94c8f6c0b0cc16533f, type: 3}
+  m_Name: QuestionData
+  m_EditorClassIdentifier: Assembly-CSharp::QuestionData
+  questions:
+  - id: 
+    questionText: "\xBFCu\xE1l es la parte de la cara que usamos para o\xEDr? ()"
+    answers:
+    - Ojos
+    - Orejas
+    - Boca
+    correctAnswerIndex: 1
+    minAge: 0
+    maxAge: 3
+  - id: 
+    questionText: "\xBFQu\xE9 hace una pelota cuando la empujas? ()"
+    answers:
+    - "Se vuelve peque\xF1a"
+    - Rueda/rueda
+    - Se congela
+    correctAnswerIndex: 1
+    minAge: 0
+    maxAge: 3
+  - id: 
+    questionText: "\xBFCu\xE1ntos dedos tiene una mano? ()"
+    answers:
+    - 3
+    - 5
+    - 7
+    correctAnswerIndex: 1
+    minAge: 0
+    maxAge: 3
+  - id: 
+    questionText: "\xBFQu\xE9 animal dice \"miau\"? ()"
+    answers:
+    - Gato
+    - Pato
+    - Perro
+    correctAnswerIndex: 0
+    minAge: 0
+    maxAge: 3
+  - id: 
+    questionText: "\xBFQu\xE9 fruta es amarilla y curvada? ()"
+    answers:
+    - Manzana
+    - "Pl\xE1tano"
+    - Uva
+    correctAnswerIndex: 1
+    minAge: 0
+    maxAge: 3
+  - id: 
+    questionText: "\xBFQu\xE9 sonido hace una vaca? ()"
+    answers:
+    - "P\xEDo"
+    - Muu
+    - Guau
+    correctAnswerIndex: 1
+    minAge: 0
+    maxAge: 3
+  - id: 
+    questionText: "\xBFDe qu\xE9 color es el cielo un d\xEDa claro? ()"
+    answers:
+    - Verde
+    - Azul
+    - Rojo
+    correctAnswerIndex: 1
+    minAge: 0
+    maxAge: 3
+  - id: 
+    questionText: "\xBFQu\xE9 usamos para caminar fuera de casa? ()"
+    answers:
+    - Gafas
+    - Zapatos
+    - Sombrero
+    correctAnswerIndex: 1
+    minAge: 0
+    maxAge: 3
+  - id: 
+    questionText: "\xBFQu\xE9 objeto usamos para beber agua? ()"
+    answers:
+    - Cuadro
+    - Vaso
+    - Almohada
+    correctAnswerIndex: 1
+    minAge: 0
+    maxAge: 3
+  - id: 
+    questionText: "\xBFCu\xE1l de estos es un juguete? ()"
+    answers:
+    - Mesa
+    - Silla
+    - Pelota
+    correctAnswerIndex: 2
+    minAge: 0
+    maxAge: 3
+  - id: 
+    questionText: "\xBFCu\xE1l n\xFAmero es mayor: 2 o 5? ()"
+    answers:
+    - 2
+    - 5
+    - Son iguales
+    correctAnswerIndex: 1
+    minAge: 4
+    maxAge: 6
+  - id: 
+    questionText: "\xBFCu\xE1ntos lados tiene un tri\xE1ngulo? ()"
+    answers:
+    - 4
+    - 3
+    - 5
+    correctAnswerIndex: 1
+    minAge: 4
+    maxAge: 6
+  - id: 
+    questionText: "\xBFQu\xE9 color obtienes al mezclar rojo y blanco? ()"
+    answers:
+    - Verde
+    - Rosa
+    - Azul
+    correctAnswerIndex: 1
+    minAge: 4
+    maxAge: 6
+  - id: 
+    questionText: "\xBFQu\xE9 medio de transporte anda por rieles? ()"
+    answers:
+    - "Avi\xF3n"
+    - Tren
+    - Barco
+    correctAnswerIndex: 1
+    minAge: 4
+    maxAge: 6
+  - id: 
+    questionText: "\xBFCu\xE1l instrumento lo golpeas y suena? ()"
+    answers:
+    - Flauta
+    - Tambor
+    - Televisor
+    correctAnswerIndex: 1
+    minAge: 4
+    maxAge: 6
+  - id: 
+    questionText: "Si tienes 2 manzanas y te dan 1 m\xE1s, \xBFcu\xE1ntas tienes?
+      ()"
+    answers:
+    - 2
+    - 3
+    - 4
+    correctAnswerIndex: 1
+    minAge: 4
+    maxAge: 6
+  - id: 
+    questionText: "\xBFD\xF3nde viven los peces? ()"
+    answers:
+    - En la tierra
+    - En el agua
+    - En el cielo
+    correctAnswerIndex: 1
+    minAge: 4
+    maxAge: 6
+  - id: 
+    questionText: "\xBFQu\xE9 usamos para escribir en papel? ()"
+    answers:
+    - Cuchara
+    - "L\xE1piz"
+    - Tenis
+    correctAnswerIndex: 1
+    minAge: 4
+    maxAge: 6
+  - id: 
+    questionText: "\xBFQu\xE9 forma tiene una pelota t\xEDpica? ()"
+    answers:
+    - Cuadrado
+    - "Tri\xE1ngulo"
+    - Esfera (redonda)
+    correctAnswerIndex: 2
+    minAge: 4
+    maxAge: 6
+  - id: 
+    questionText: "\xBFQu\xE9 significa parar cuando hay sem\xE1foro en rojo? ()"
+    answers:
+    - Acelerar
+    - Detenerse
+    - Saltar
+    correctAnswerIndex: 1
+    minAge: 4
+    maxAge: 6
+  - id: 
+    questionText: "\xBFQui\xE9n cuida de la escuela? ()"
+    answers:
+    - Doctor
+    - Profesor/a
+    - Panadero
+    correctAnswerIndex: 1
+    minAge: 4
+    maxAge: 6
+  - id: 
+    questionText: "\xBFQu\xE9 planeta es el nuestro? ()"
+    answers:
+    - Marte
+    - Tierra
+    - "J\xFApiter"
+    correctAnswerIndex: 1
+    minAge: 7
+    maxAge: 10
+  - id: 
+    questionText: "\xBFCu\xE1nto es 6 \xD7 3? ()"
+    answers:
+    - 18
+    - 18
+    - 9
+    correctAnswerIndex: 1
+    minAge: 7
+    maxAge: 10
+  - id: 
+    questionText: "\xBFQu\xE9 continente tiene la mayor cantidad de pa\xEDses? ()"
+    answers:
+    - "Ocean\xEDa"
+    - "\xC1frica"
+    - "Ant\xE1rtida"
+    correctAnswerIndex: 1
+    minAge: 7
+    maxAge: 10
+  - id: 
+    questionText: "\xBFQu\xE9 parte de la planta absorbe agua del suelo? ()"
+    answers:
+    - Flores
+    - "Ra\xEDz"
+    - Fruta
+    correctAnswerIndex: 1
+    minAge: 7
+    maxAge: 10
+  - id: 
+    questionText: "\xBFCu\xE1l es la capital de Espa\xF1a? ()"
+    answers:
+    - Barcelona
+    - Madrid
+    - Sevilla
+    correctAnswerIndex: 1
+    minAge: 7
+    maxAge: 10
+  - id: 
+    questionText: "\xBFQu\xE9 tipo de energ\xEDa viene del Sol? ()"
+    answers:
+    - "Energ\xEDa sonora"
+    - "Energ\xEDa solar (luz)"
+    - "Energ\xEDa de helado"
+    correctAnswerIndex: 1
+    minAge: 7
+    maxAge: 10
+  - id: 
+    questionText: "\xBFQu\xE9 gas respiramos para vivir? ()"
+    answers:
+    - "Hidr\xF3geno"
+    - "Ox\xEDgeno"
+    - "Di\xF3xido de carbono"
+    correctAnswerIndex: 1
+    minAge: 7
+    maxAge: 10
+  - id: 
+    questionText: "Si tienes 10 y gastas 4, \xBFqu\xE9 te queda? ()"
+    answers:
+    - 7
+    - 4
+    - 6
+    correctAnswerIndex: 2
+    minAge: 7
+    maxAge: 10
+  - id: 
+    questionText: "\xBFQu\xE9 instrumento tiene teclas y se toca sentado? ()"
+    answers:
+    - Guitarra
+    - Piano
+    - "Bater\xEDa"
+    correctAnswerIndex: 1
+    minAge: 7
+    maxAge: 10
+  - id: 
+    questionText: "\xBFQu\xE9 aparato usamos para navegar en internet? ()"
+    answers:
+    - Microondas
+    - "Computadora / Tablet / M\xF3vil"
+    - Plancha
+    correctAnswerIndex: 1
+    minAge: 7
+    maxAge: 10
+  - id: 
+    questionText: "\xBFEn una fracci\xF3n 1/4, qu\xE9 representa el 4? ()"
+    answers:
+    - "El n\xFAmero de partes que tomas"
+    - "El n\xFAmero total de partes iguales"
+    - "La cantidad que sobr\xF3"
+    correctAnswerIndex: 1
+    minAge: 11
+    maxAge: 12
+  - id: 
+    questionText: "\xBFCu\xE1l es el resultado de 12 \xF7 3? ()"
+    answers:
+    - 6
+    - 4
+    - 3
+    correctAnswerIndex: 1
+    minAge: 11
+    maxAge: 12
+  - id: 
+    questionText: "\xBFQu\xE9 fen\xF3meno explica por qu\xE9 hace viento? ()"
+    answers:
+    - Lluvia
+    - "Diferencias de presi\xF3n/temperatura en el aire"
+    - La noche
+    correctAnswerIndex: 1
+    minAge: 11
+    maxAge: 12
+  - id: 
+    questionText: "\xBFQu\xE9 es un continente? ()"
+    answers:
+    - "Un pa\xEDs peque\xF1o"
+    - "Una gran extensi\xF3n de tierra con muchos pa\xEDses"
+    - Una isla diminuta
+    correctAnswerIndex: 1
+    minAge: 11
+    maxAge: 12
+  - id: 
+    questionText: "\xBFCu\xE1l es la f\xF3rmula qu\xEDmica del agua? ()"
+    answers:
+    - CO2
+    - H2O
+    - O2
+    correctAnswerIndex: 1
+    minAge: 11
+    maxAge: 12
+  - id: 
+    questionText: "\xBFQu\xE9 distancia mide en el sistema m\xE9trico? ()"
+    answers:
+    - Libras
+    - Metros
+    - Pulgadas
+    correctAnswerIndex: 1
+    minAge: 11
+    maxAge: 12
+  - id: 
+    questionText: "\xBFQu\xE9 tipo de tri\xE1ngulo tiene todos los lados iguales?
+      ()"
+    answers:
+    - "Is\xF3sceles"
+    - "Equil\xE1tero"
+    - Escaleno
+    correctAnswerIndex: 1
+    minAge: 11
+    maxAge: 12
+  - id: 
+    questionText: "\xBFQu\xE9 a\xF1o no es bisiesto? ()"
+    answers:
+    - 2000
+    - 1900
+    - 2004
+    correctAnswerIndex: 1
+    minAge: 11
+    maxAge: 12
+  - id: 
+    questionText: "\xBFQu\xE9 fuerza mantiene los objetos pegados a la Tierra? ()"
+    answers:
+    - Electricidad
+    - Gravedad
+    - "Fricci\xF3n"
+    correctAnswerIndex: 1
+    minAge: 11
+    maxAge: 12
+  - id: 
+    questionText: "\xBFC\xF3mo se llama el proceso por el cual las plantas hacen
+      su alimento con luz? ()"
+    answers:
+    - "Digesti\xF3n"
+    - "Fotos\xEDntesis"
+    - "Evaporaci\xF3n"
+    correctAnswerIndex: 1
+    minAge: 11
+    maxAge: 12

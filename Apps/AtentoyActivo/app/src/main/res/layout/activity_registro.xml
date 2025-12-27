@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundsky"
+    tools:context=".RegistroActivity">
+
+    <!-- Guideline left -->
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="20dp" />
+
+    <!-- Guideline right -->
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_end="20dp" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/materialTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:text="Registro"
+        android:textSize="30sp"
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif-medium"
+        app:layout_constraintStart_toStartOf="@+id/guideline4"
+        app:layout_constraintEnd_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/txtNombre"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Ingrese su nombre"
+        app:boxBackgroundColor="#B3000000"
+        app:boxStrokeColor="@color/semiWhite"
+        app:hintTextColor="@color/semiWhite"
+        app:layout_constraintStart_toStartOf="@+id/guideline4"
+        app:layout_constraintEnd_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toBottomOf="@+id/materialTextView"
+        tools:ignore="HardcodedText">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/txtNombreVal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:textSize="16sp"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="@color/white"
+            android:textColorHint="@color/semiWhite" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/txtCorreo"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:hint="Correo"
+        app:boxBackgroundColor="#B3000000"
+        app:boxStrokeColor="@color/semiWhite"
+        app:hintTextColor="@color/semiWhite"
+        app:layout_constraintStart_toStartOf="@+id/guideline4"
+        app:layout_constraintEnd_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toBottomOf="@+id/txtNombre"
+        tools:ignore="HardcodedText">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/txtCorreoVal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:textSize="16sp"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="@color/white"
+            android:textColorHint="@color/semiWhite" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/txtPwd"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:hint="Contraseña"
+        app:endIconMode="password_toggle"
+        app:boxBackgroundColor="#B3000000"
+        app:boxStrokeColor="@color/semiWhite"
+        app:hintTextColor="@color/semiWhite"
+        app:layout_constraintStart_toStartOf="@+id/guideline4"
+        app:layout_constraintEnd_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toBottomOf="@+id/txtCorreo"
+        tools:ignore="HardcodedText">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/txtPwdVal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:longClickable="false"
+            android:textSize="16sp"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="@color/white"
+            android:textColorHint="@color/semiWhite" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/txtPwdConf"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:hint="Confirmar contraseña"
+        app:endIconMode="password_toggle"
+        app:boxBackgroundColor="#B3000000"
+        app:boxStrokeColor="@color/semiWhite"
+        app:hintTextColor="@color/semiWhite"
+        app:layout_constraintStart_toStartOf="@+id/guideline4"
+        app:layout_constraintEnd_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toBottomOf="@+id/txtPwd"
+        tools:ignore="HardcodedText">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/txtPwdConfVal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:longClickable="false"
+            android:textSize="16sp"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="@color/white"
+            android:textColorHint="@color/semiWhite" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnRegistrar"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="20dp"
+        android:text="Registrar"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif-medium"
+        app:backgroundTint="@color/colorPrimary"
+        app:cornerRadius="24dp"
+        app:layout_constraintStart_toStartOf="@+id/guideline4"
+        app:layout_constraintEnd_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toBottomOf="@+id/txtPwdConf" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
