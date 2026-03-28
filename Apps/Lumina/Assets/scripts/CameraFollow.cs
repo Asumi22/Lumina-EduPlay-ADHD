@@ -9,3 +9,6 @@ public class CameraFollow : MonoBehaviour
         transform.position = new Vector3(target.position.x, target.position.y, transform.position.z);
     }
 }
+//axell rodriguez
+
+//hola
